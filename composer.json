@@ -1,0 +1,14 @@
+{
+    "name": "brioche/brioche",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^4.0",
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brioche\\": "src/Brioche/"
+        }
+    }
+}
